@@ -65,6 +65,7 @@ function connectDB()
  ?>
  ]
 </div>	
+<div id="popups" ></div>
 <script src="carhome.js"></script>
 </body>
 </html>

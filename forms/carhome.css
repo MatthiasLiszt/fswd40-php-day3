@@ -14,3 +14,23 @@
 .car p {
  margin-left: 6em;
 }
+
+.modalbox{
+ display: none;
+ 
+}
+
+.modalbox:target{
+ position: fixed;
+ display: inline-block;
+ z-index: 9999;
+ color: grey;
+ border: 3px solid black;
+ background-color: yellow;
+ border-radius: 9%;
+ 
+ top: 30vh;
+ left: 60vw;
+ padding: 1.5em;
+}
+
